@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <style>
+    html {
+        background-color: darkgray;
+    }
+
     .navformat {
         list-style-type: none;
+        font-size: 25px;
         margin: 0;
         padding: 0;
     }
+
     .header {
         background-color:lightslategray;
         padding: 20px 10px 20px 10px;
@@ -16,8 +22,41 @@
     h1 {
         color: darkslategray;
     }
+
+    li {
+        display: inline-block;
+        border-right: 1px solid black;
+    }
+
+    a {
+        padding: 75px;
+        color: whitesmoke;
+    }
+
+    ul {
+        background-color: #666699;
+    }
+
+    .resizeimg {
+        width: 450px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    img {
+        float: left;
+    }
 </style>
 <html>
+    <title>
+        Home
+    </title>
 <header> 
     <h1 class="header">
     Norse Mythology
@@ -26,13 +65,23 @@
 <body>
     <nav>
         <ul class="navformat">
+            <li><a href="#">Home</a></li>
             <li><a href="#">Odin</a></li>
             <li><a href="#">Thor</a></li>
             <li><a href="#">Loki</a></li>
             <li><a href="#">Freya</a></li>
         </ul>
     </nav>
-
+    <p>
+        Most scholars agree that Norse mythology originated around 1000 AD.
+        Norse religion, being polytheistic, entailing belief in a plethora of
+        gods and goddesses. These gods and goddesses were seperated into two
+        groups, the Æsir and the Vanir.
+    </p>
+    <div class="rectangle">
+    <div>
+        <img src="https://www.worldhistoryedu.com/wp-content/uploads/2020/03/norse-god-odin-woden-granger.jpg" alt="Image of Odin" class="resizeimg">
+    </div>   
 </body>
 <footer>
 
